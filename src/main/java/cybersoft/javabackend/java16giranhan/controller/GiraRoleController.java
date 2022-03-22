@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import cybersoft.javabackend.java16giranhan.common.util.ErrorHelper;
 import cybersoft.javabackend.java16giranhan.role.dto.GiraRoleDTO;
 import cybersoft.javabackend.java16giranhan.role.model.GiraRole;
 import cybersoft.javabackend.java16giranhan.role.service.GiraRoleService;
@@ -34,13 +35,7 @@ public class GiraRoleController {
 	@PostMapping
 	public Object createNewRole(@Valid @RequestBody GiraRoleDTO dto,BindingResult bindingResult) {
 		if(bindingResult.hasErrors()) {
-			return new ResponseEntity<>(
-					bindingResult.getAllErrors()
-						.stream().map(t-> t.getDefaultMessage())
-						.collect(Collectors.toList())
-					
-					
-					,HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<>(ErrorHelper.getAllError(bindingResult),HttpStatus.BAD_REQUEST);
 			
 		}
 		
