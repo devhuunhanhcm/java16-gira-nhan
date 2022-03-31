@@ -3,15 +3,18 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: 1234
+    
   security:
     user:
       name: admin
       password: admin
+      
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: validate
+    generate-ddl: false
     show-sql: true
     
   flyway:
-    enabled: false
+    enabled: true 
     driver-class-name: org.postgresql.Driver

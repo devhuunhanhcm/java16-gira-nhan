@@ -1,4 +1,4 @@
-package cybersoft.javabackend.java16giranhan.role.service;
+	package cybersoft.javabackend.java16giranhan.role.service;
 
 import java.util.List;
 
@@ -17,8 +17,8 @@ public class GiraRoleServiceImpl implements GiraRoleService {
 	private GiraRoleRepository repository;
 	@Override
 	public List<GiraRole> findAllEntity() {
-		repository.findAll();
-		return null;
+		
+		return repository.findAll();
 	}
 
 	@Override

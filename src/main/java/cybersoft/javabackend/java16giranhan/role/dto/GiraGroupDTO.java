@@ -13,7 +13,7 @@ import lombok.Setter;
 public class GiraGroupDTO {
 	private UUID id;
 	
-	@Size(min = 5,max =36,message="Role code must be longer than 5 characters.")
+	@Size(min = 5,max =36,message="Group  code must be longer than 5 characters.")
 	private String code;
 	
 	@NotBlank(message="Description must be not blank")

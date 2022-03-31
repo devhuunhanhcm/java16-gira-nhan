@@ -35,7 +35,8 @@ public class GiraRoleController {
 	@PostMapping
 	public Object createNewRole(@Valid @RequestBody GiraRoleDTO dto,BindingResult bindingResult) {
 		if(bindingResult.hasErrors()) {
-			return new ResponseEntity<>(ErrorHelper.getAllError(bindingResult),HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<>(ErrorHelper.getAllError(bindingResult)
+					,HttpStatus.BAD_REQUEST);
 			
 		}
 		
