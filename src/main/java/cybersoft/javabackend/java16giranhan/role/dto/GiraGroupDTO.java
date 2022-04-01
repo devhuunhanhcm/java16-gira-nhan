@@ -1,5 +1,7 @@
 package cybersoft.javabackend.java16giranhan.role.dto;
 
+import java.util.UUID;
+
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
@@ -8,10 +10,13 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class GiraRoleDTO {
-	@Size(min = 5,max =36,message="Role code must be longer than 5 characters.")
+public class GiraGroupDTO {
+	private UUID id;
+	
+	@Size(min = 5,max =36,message="Group  code must be longer than 5 characters.")
 	private String code;
+	
 	@NotBlank(message="Description must be not blank")
 	private String description;
-	
+
 }
