@@ -20,7 +20,9 @@ import cybersoft.javabackend.java16giranhan.common.util.ResponseHelper;
 import cybersoft.javabackend.java16giranhan.role.dto.GiraGroupDTO;
 import cybersoft.javabackend.java16giranhan.role.dto.GiraGroupWithRoleDTO;
 import cybersoft.javabackend.java16giranhan.role.service.GiraGroupService;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequestMapping("/groups")
 public class GiraGroupController {
@@ -30,8 +32,14 @@ public class GiraGroupController {
 	
 	@GetMapping
 	public Object findAllGroup() {
+		log.info("find all groups STARTED");
+		
+		log.debug("calling GiraGroupService.findAllDto()");
 		List<GiraGroupDTO> groups = service.findAllDto();
 		
+		log.debug("result {} ", groups);
+		
+		log.info("find all groups ENDED");
 		return ResponseHelper.getResponse(groups, HttpStatus.OK);
 	}
 	@PostMapping
