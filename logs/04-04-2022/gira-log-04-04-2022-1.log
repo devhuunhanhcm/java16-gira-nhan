@@ -1,0 +1,164 @@
+11:49:15 [background-preinit] INFO  ${PID: - } --- o.h.v.i.u.Version --- HV000001: Hibernate Validator 6.2.2.Final
+ HV000001: Hibernate Validator 6.2.2.Final
+11:49:15 [restartedMain] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 1828 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
+ Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 1828 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
+11:49:15 [restartedMain] DEBUG ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Running with Spring Boot v2.5.10, Spring v5.3.16
+ Running with Spring Boot v2.5.10, Spring v5.3.16
+11:49:15 [restartedMain] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- No active profile set, falling back to 1 default profile: "default"
+ No active profile set, falling back to 1 default profile: "default"
+11:49:15 [restartedMain] INFO  ${PID: - } --- o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor --- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:49:15 [restartedMain] INFO  ${PID: - } --- o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor --- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:49:19 [restartedMain] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:49:19 [restartedMain] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
+ Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
+11:49:20 [restartedMain] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat initialized with port(s): 8080 (http)
+ Tomcat initialized with port(s): 8080 (http)
+11:49:20 [restartedMain] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Initializing ProtocolHandler ["http-nio-8080"]
+ Initializing ProtocolHandler ["http-nio-8080"]
+11:49:20 [restartedMain] INFO  ${PID: - } --- o.a.c.c.StandardService --- Starting service [Tomcat]
+ Starting service [Tomcat]
+11:49:20 [restartedMain] INFO  ${PID: - } --- o.a.c.c.StandardEngine --- Starting Servlet engine: [Apache Tomcat/9.0.58]
+ Starting Servlet engine: [Apache Tomcat/9.0.58]
+11:49:20 [restartedMain] INFO  ${PID: - } --- o.a.c.c.C.[.[.[/] --- Initializing Spring embedded WebApplicationContext
+ Initializing Spring embedded WebApplicationContext
+11:49:20 [restartedMain] INFO  ${PID: - } --- o.s.b.w.s.c.ServletWebServerApplicationContext --- Root WebApplicationContext: initialization completed in 4858 ms
+ Root WebApplicationContext: initialization completed in 4858 ms
+11:49:21 [restartedMain] INFO  ${PID: - } --- o.f.c.i.l.VersionPrinter --- Flyway Community Edition 7.7.3 by Redgate
+ Flyway Community Edition 7.7.3 by Redgate
+11:49:21 [restartedMain] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Starting...
+ HikariPool-1 - Starting...
+11:49:21 [restartedMain] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Start completed.
+ HikariPool-1 - Start completed.
+11:49:21 [restartedMain] INFO  ${PID: - } --- o.f.c.i.d.b.DatabaseType --- Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.2)
+ Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.2)
+11:49:21 [restartedMain] WARN  ${PID: - } --- o.f.c.i.d.b.Database --- Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 is 13.
+ Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 is 13.
+11:49:21 [restartedMain] INFO  ${PID: - } --- o.f.c.i.c.DbValidate --- Successfully validated 2 migrations (execution time 00:00.102s)
+ Successfully validated 2 migrations (execution time 00:00.102s)
+11:49:21 [restartedMain] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Current version of schema "public": 2
+ Current version of schema "public": 2
+11:49:21 [restartedMain] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Schema "public" is up to date. No migration necessary.
+ Schema "public" is up to date. No migration necessary.
+11:49:22 [restartedMain] INFO  ${PID: - } --- o.h.j.i.u.LogHelper --- HHH000204: Processing PersistenceUnitInfo [name: default]
+ HHH000204: Processing PersistenceUnitInfo [name: default]
+11:49:22 [restartedMain] INFO  ${PID: - } --- o.h.Version --- HHH000412: Hibernate ORM core version 5.4.33
+ HHH000412: Hibernate ORM core version 5.4.33
+11:49:22 [restartedMain] INFO  ${PID: - } --- o.h.a.c.Version --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+ HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:49:22 [restartedMain] INFO  ${PID: - } --- o.h.d.Dialect --- HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11:49:24 [restartedMain] INFO  ${PID: - } --- o.h.e.t.j.p.i.JtaPlatformInitiator --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:49:24 [restartedMain] INFO  ${PID: - } --- o.s.o.j.LocalContainerEntityManagerFactoryBean --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+ Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:49:25 [restartedMain] WARN  ${PID: - } --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:49:26 [restartedMain] INFO  ${PID: - } --- o.s.b.a.e.w.EndpointLinksResolver --- Exposing 1 endpoint(s) beneath base path '/actuator'
+ Exposing 1 endpoint(s) beneath base path '/actuator'
+11:49:26 [restartedMain] INFO  ${PID: - } --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping --- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+ Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:49:26 [restartedMain] INFO  ${PID: - } --- o.s.b.d.a.OptionalLiveReloadServer --- LiveReload server is running on port 35729
+ LiveReload server is running on port 35729
+11:49:27 [restartedMain] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Starting ProtocolHandler ["http-nio-8080"]
+ Starting ProtocolHandler ["http-nio-8080"]
+11:49:27 [restartedMain] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat started on port(s): 8080 (http) with context path ''
+ Tomcat started on port(s): 8080 (http) with context path ''
+11:49:27 [restartedMain] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Context refreshed
+ Context refreshed
+11:49:27 [restartedMain] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Found 1 custom documentation plugin(s)
+ Found 1 custom documentation plugin(s)
+11:49:27 [restartedMain] INFO  ${PID: - } --- s.d.s.w.s.ApiListingReferenceScanner --- Scanning for api listing references
+ Scanning for api listing references
+11:49:28 [restartedMain] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Started Java16GiraNhanApplication in 13.534 seconds (JVM running for 16.082)
+ Started Java16GiraNhanApplication in 13.534 seconds (JVM running for 16.082)
+11:49:29 [RMI TCP Connection(3)-127.0.0.1] INFO  ${PID: - } --- o.a.c.c.C.[.[.[/] --- Initializing Spring DispatcherServlet 'dispatcherServlet'
+ Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:49:29 [RMI TCP Connection(3)-127.0.0.1] INFO  ${PID: - } --- o.s.w.s.DispatcherServlet --- Initializing Servlet 'dispatcherServlet'
+ Initializing Servlet 'dispatcherServlet'
+11:49:29 [RMI TCP Connection(3)-127.0.0.1] INFO  ${PID: - } --- o.s.w.s.DispatcherServlet --- Completed initialization in 2 ms
+ Completed initialization in 2 ms
+11:49:59 [Thread-4] INFO  ${PID: - } --- o.s.o.j.LocalContainerEntityManagerFactoryBean --- Closing JPA EntityManagerFactory for persistence unit 'default'
+ Closing JPA EntityManagerFactory for persistence unit 'default'
+11:49:59 [Thread-4] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Shutdown initiated...
+ HikariPool-1 - Shutdown initiated...
+11:49:59 [Thread-4] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Shutdown completed.
+ HikariPool-1 - Shutdown completed.
+11:49:59 [restartedMain] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 1828 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
+ Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 1828 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
+11:49:59 [restartedMain] DEBUG ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Running with Spring Boot v2.5.10, Spring v5.3.16
+ Running with Spring Boot v2.5.10, Spring v5.3.16
+11:49:59 [restartedMain] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- No active profile set, falling back to 1 default profile: "default"
+ No active profile set, falling back to 1 default profile: "default"
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+ Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat initialized with port(s): 8080 (http)
+ Tomcat initialized with port(s): 8080 (http)
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Initializing ProtocolHandler ["http-nio-8080"]
+ Initializing ProtocolHandler ["http-nio-8080"]
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.a.c.c.StandardService --- Starting service [Tomcat]
+ Starting service [Tomcat]
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.a.c.c.StandardEngine --- Starting Servlet engine: [Apache Tomcat/9.0.58]
+ Starting Servlet engine: [Apache Tomcat/9.0.58]
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.a.c.c.C.[.[.[/] --- Initializing Spring embedded WebApplicationContext
+ Initializing Spring embedded WebApplicationContext
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.s.b.w.s.c.ServletWebServerApplicationContext --- Root WebApplicationContext: initialization completed in 1639 ms
+ Root WebApplicationContext: initialization completed in 1639 ms
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.f.c.i.l.VersionPrinter --- Flyway Community Edition 7.7.3 by Redgate
+ Flyway Community Edition 7.7.3 by Redgate
+11:50:01 [restartedMain] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-2 - Starting...
+ HikariPool-2 - Starting...
+11:50:01 [restartedMain] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-2 - Start completed.
+ HikariPool-2 - Start completed.
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.f.c.i.d.b.DatabaseType --- Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.2)
+ Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.2)
+11:50:01 [restartedMain] WARN  ${PID: - } --- o.f.c.i.d.b.Database --- Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 is 13.
+ Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@25d18527 is 13.
+11:50:01 [restartedMain] INFO  ${PID: - } --- o.f.c.i.c.DbValidate --- Successfully validated 2 migrations (execution time 00:00.029s)
+ Successfully validated 2 migrations (execution time 00:00.029s)
+11:50:02 [restartedMain] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Current version of schema "public": 2
+ Current version of schema "public": 2
+11:50:02 [restartedMain] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Schema "public" is up to date. No migration necessary.
+ Schema "public" is up to date. No migration necessary.
+11:50:02 [restartedMain] INFO  ${PID: - } --- o.h.j.i.u.LogHelper --- HHH000204: Processing PersistenceUnitInfo [name: default]
+ HHH000204: Processing PersistenceUnitInfo [name: default]
+11:50:02 [restartedMain] INFO  ${PID: - } --- o.h.d.Dialect --- HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11:50:02 [restartedMain] INFO  ${PID: - } --- o.h.e.t.j.p.i.JtaPlatformInitiator --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:50:02 [restartedMain] INFO  ${PID: - } --- o.s.o.j.LocalContainerEntityManagerFactoryBean --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+ Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:50:03 [restartedMain] WARN  ${PID: - } --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:50:03 [restartedMain] INFO  ${PID: - } --- o.s.b.a.e.w.EndpointLinksResolver --- Exposing 1 endpoint(s) beneath base path '/actuator'
+ Exposing 1 endpoint(s) beneath base path '/actuator'
+11:50:03 [restartedMain] INFO  ${PID: - } --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping --- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+ Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:50:03 [restartedMain] INFO  ${PID: - } --- o.s.b.d.a.OptionalLiveReloadServer --- LiveReload server is running on port 35729
+ LiveReload server is running on port 35729
+11:50:03 [restartedMain] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Starting ProtocolHandler ["http-nio-8080"]
+ Starting ProtocolHandler ["http-nio-8080"]
+11:50:03 [restartedMain] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat started on port(s): 8080 (http) with context path ''
+ Tomcat started on port(s): 8080 (http) with context path ''
+11:50:03 [restartedMain] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Context refreshed
+ Context refreshed
+11:50:03 [restartedMain] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Found 1 custom documentation plugin(s)
+ Found 1 custom documentation plugin(s)
+11:50:03 [restartedMain] INFO  ${PID: - } --- s.d.s.w.s.ApiListingReferenceScanner --- Scanning for api listing references
+ Scanning for api listing references
+11:50:04 [restartedMain] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Started Java16GiraNhanApplication in 4.15 seconds (JVM running for 51.949)
+ Started Java16GiraNhanApplication in 4.15 seconds (JVM running for 51.949)
+11:50:04 [restartedMain] INFO  ${PID: - } --- o.s.b.d.a.ConditionEvaluationDeltaLoggingListener --- Condition evaluation unchanged
+ Condition evaluation unchanged
+11:50:17 [RMI TCP Connection(4)-127.0.0.1] INFO  ${PID: - } --- o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin --- Application shutdown requested.
+ Application shutdown requested.
+11:50:17 [RMI TCP Connection(4)-127.0.0.1] INFO  ${PID: - } --- o.s.o.j.LocalContainerEntityManagerFactoryBean --- Closing JPA EntityManagerFactory for persistence unit 'default'
+ Closing JPA EntityManagerFactory for persistence unit 'default'
+11:50:17 [RMI TCP Connection(4)-127.0.0.1] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-2 - Shutdown initiated...
+ HikariPool-2 - Shutdown initiated...
+11:50:17 [RMI TCP Connection(4)-127.0.0.1] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-2 - Shutdown completed.
+ HikariPool-2 - Shutdown completed.

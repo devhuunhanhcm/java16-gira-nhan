@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="%style{%d{yyyy-MM-dd HH:mm:ss}}{black} %highlight{%style{[%-5level]}{bright} } [%style{%t}{bright,blue}] %style{%C{1.}}{bright,yellow}: %msg%n" disableAnsi="false" />
+		</Console>
+
+		<RollingFile name="RollingFile"
+					fileName="./logs/gira-log.logs"
+					filePattern="./logs/$${date:dd-MM-yyyy}/gira-log-%d{dd-MM-yyyy}-%i.log">
+					
+			<PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level ${PID: - } --- %c{1.} --- %m%n %m%n"/>	
+			<Policies>
+				<OnStartupTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="1 MB" />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="STDOUT"/>
+			<AppenderRef ref="RollingFile"/>
+		</Root>
+
+		<Logger level="debug" name="cybersoft.javabackend.java16giranhan">
+		</Logger>
+
+		<Logger level="debug" name="org.springfamework.boot">
+		</Logger>
+	</Loggers>
+</Configuration>
