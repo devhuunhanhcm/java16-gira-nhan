@@ -18,7 +18,6 @@ spring:
   flyway:
     enabled: true 
     driver-class-name: org.postgresql.Driver
-    baseline-on-migrate: true
 logging:
   level:
     root: info
