@@ -9,7 +9,10 @@ CREATE TABLE gira_group (
 	description VARCHAR ( 255 ),
 	PRIMARY KEY ( ID ) 
 );
-CREATE TABLE gira_group_role ( group_id VARCHAR ( 36 ) NOT NULL, role_id VARCHAR ( 36 ) NOT NULL, PRIMARY KEY ( group_id, role_id ) );
+CREATE TABLE gira_group_role ( 
+	group_id VARCHAR ( 36 ) NOT NULL,
+	role_id VARCHAR ( 36 ) NOT NULL,
+	PRIMARY KEY ( group_id, role_id ) );
 CREATE TABLE gira_role (
 	ID VARCHAR ( 36 ) NOT NULL,
 	created_at TIMESTAMP,
