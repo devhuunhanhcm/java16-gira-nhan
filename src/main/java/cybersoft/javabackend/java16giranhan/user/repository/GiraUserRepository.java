@@ -8,8 +8,9 @@ import org.springframework.stereotype.Repository;
 
 import cybersoft.javabackend.java16giranhan.user.model.GiraUser;
 @Repository
-public interface GiraUserRepository extends JpaRepository<GiraUser,UUID >{
-
+public interface GiraUserRepository extends JpaRepository<GiraUser, UUID> {
 	Optional<GiraUser> findByUsername(String username);
 
+	Optional<GiraUser> findByEmail(String email);
+	
 }

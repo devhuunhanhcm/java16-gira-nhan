@@ -7,18 +7,15 @@ import cybersoft.javabackend.java16giranhan.user.dto.GiraUserDTO;
 import cybersoft.javabackend.java16giranhan.user.mapper.GiraUserMapper;
 import cybersoft.javabackend.java16giranhan.user.model.GiraUser;
 import cybersoft.javabackend.java16giranhan.user.repository.GiraUserRepository;
-
 @Service
 public class GiraUserServiceImpl implements GiraUserService {
 	@Autowired
 	private GiraUserRepository repository;
-	
 	@Override
 	public GiraUserDTO createNewUser(GiraUserDTO dto) {
 		GiraUser user = GiraUserMapper.INSTANCE.toModel(dto);
 		GiraUser newUser = repository.save(user);
-		
-		return GiraUserMapper.INSTANCE.toDto(newUser);
+		return GiraUserMapper.INSTANCE.toDTO(newUser);
 	}
 
 }

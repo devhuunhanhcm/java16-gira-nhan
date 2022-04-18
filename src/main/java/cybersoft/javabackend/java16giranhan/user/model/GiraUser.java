@@ -17,53 +17,51 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
-@Setter
 @Getter
+@Setter
 @NoArgsConstructor
 @SuperBuilder
 @Entity
-@Table(name="gira_user")
+@Table(name = "gira_user")
 public class GiraUser extends BaseEntity {
+	
 	@ManyToMany(mappedBy = "users")
 	private Set<GiraGroup> groups = new LinkedHashSet<GiraGroup>();
 	
-	
-	@Column(name="username",nullable = false,unique = true,length = 100)
+	@Column(name = "username", unique = true, nullable = false, length = 100)
 	private String username;
 	
-	@Column(name="password",nullable = false)
+	@Column(name = "password", nullable = false)
 	private String password;
 	
-	@Column(name="display_name",nullable = false)
+	@Column(name = "display_name", nullable = false)
 	private String displayName;
 	
-	@Column(name="first_name")
+	@Column(name = "first_name")
 	private String firstName;
 	
-	@Column(name="last_name")
+	@Column(name = "last_name")
 	private String lastName;
 	
-	@Column(name="email",nullable = false,unique = true)
+	@Column(name = "email", length = 100, nullable = false, unique = true)
 	private String email;
 	
-	@Column(name="avatar")
+	@Column(name = "avatar")
 	private String avatar;
 	
-	@Column(name="status",nullable = false)
+	@Column(name = "status", nullable = false)
 	@Enumerated(EnumType.STRING)
-	//phải để kiểu enum là String để nó lưu String xuống db luôn còn không nó sẽ lấy số thứ tự các variable trong enum 
 	private UserStatus status;
 	
-	@Column(name="department")
+	@Column(name = "department")
 	private String department;
 	
-	@Column(name="major")
+	@Column(name = "major")
 	private String major;
 	
-	@Column(name="hobbies")
+	@Column(name = "hobbies")
 	private String hobbies;
 	
-	@Column(name="facebook")
+	@Column(name = "facebook")
 	private String facebook;
-	
 }
