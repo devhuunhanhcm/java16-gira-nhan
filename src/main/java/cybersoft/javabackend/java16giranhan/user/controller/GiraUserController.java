@@ -16,7 +16,7 @@ import cybersoft.javabackend.java16giranhan.common.util.ResponseHelper;
 import cybersoft.javabackend.java16giranhan.user.dto.GiraUserDTO;
 import cybersoft.javabackend.java16giranhan.user.service.GiraUserService;
 @RestController
-@RequestMapping("users")
+@RequestMapping("/api/v1/users")
 public class GiraUserController {
 	@Autowired
 	private GiraUserService service;
