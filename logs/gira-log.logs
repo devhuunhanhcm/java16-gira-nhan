@@ -1,80 +1,78 @@
-23:27:47 [background-preinit] INFO  ${PID: - } --- o.h.v.i.u.Version --- HV000001: Hibernate Validator 6.2.2.Final
+10:52:14 [background-preinit] INFO  ${PID: - } --- o.h.v.i.u.Version --- HV000001: Hibernate Validator 6.2.2.Final
  HV000001: Hibernate Validator 6.2.2.Final
-23:27:47 [main] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 3024 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
- Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 3024 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
-23:27:47 [main] DEBUG ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Running with Spring Boot v2.5.10, Spring v5.3.16
+10:52:14 [main] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 8260 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
+ Starting Java16GiraNhanApplication using Java 17.0.1 on DEFDEVWEB with PID 8260 (E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan\target\classes started by Dell in E:\cybersoft-backend\cybersoft-pring\java16-gira-nhan)
+10:52:15 [main] DEBUG ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Running with Spring Boot v2.5.10, Spring v5.3.16
  Running with Spring Boot v2.5.10, Spring v5.3.16
-23:27:47 [main] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- No active profile set, falling back to 1 default profile: "default"
+10:52:15 [main] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- No active profile set, falling back to 1 default profile: "default"
  No active profile set, falling back to 1 default profile: "default"
-23:27:57 [main] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:52:18 [main] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-23:27:57 [main] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Finished Spring Data repository scanning in 478 ms. Found 3 JPA repository interfaces.
- Finished Spring Data repository scanning in 478 ms. Found 3 JPA repository interfaces.
-23:28:03 [main] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat initialized with port(s): 8080 (http)
+10:52:18 [main] INFO  ${PID: - } --- o.s.d.r.c.RepositoryConfigurationDelegate --- Finished Spring Data repository scanning in 159 ms. Found 3 JPA repository interfaces.
+ Finished Spring Data repository scanning in 159 ms. Found 3 JPA repository interfaces.
+10:52:19 [main] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat initialized with port(s): 8080 (http)
  Tomcat initialized with port(s): 8080 (http)
-23:28:03 [main] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Initializing ProtocolHandler ["http-nio-8080"]
+10:52:19 [main] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Initializing ProtocolHandler ["http-nio-8080"]
  Initializing ProtocolHandler ["http-nio-8080"]
-23:28:03 [main] INFO  ${PID: - } --- o.a.c.c.StandardService --- Starting service [Tomcat]
+10:52:19 [main] INFO  ${PID: - } --- o.a.c.c.StandardService --- Starting service [Tomcat]
  Starting service [Tomcat]
-23:28:03 [main] INFO  ${PID: - } --- o.a.c.c.StandardEngine --- Starting Servlet engine: [Apache Tomcat/9.0.58]
+10:52:19 [main] INFO  ${PID: - } --- o.a.c.c.StandardEngine --- Starting Servlet engine: [Apache Tomcat/9.0.58]
  Starting Servlet engine: [Apache Tomcat/9.0.58]
-23:28:05 [main] INFO  ${PID: - } --- o.a.c.c.C.[.[.[/] --- Initializing Spring embedded WebApplicationContext
+10:52:20 [main] INFO  ${PID: - } --- o.a.c.c.C.[.[.[/] --- Initializing Spring embedded WebApplicationContext
  Initializing Spring embedded WebApplicationContext
-23:28:05 [main] INFO  ${PID: - } --- o.s.b.w.s.c.ServletWebServerApplicationContext --- Root WebApplicationContext: initialization completed in 17192 ms
- Root WebApplicationContext: initialization completed in 17192 ms
-23:28:07 [main] INFO  ${PID: - } --- o.f.c.i.l.VersionPrinter --- Flyway Community Edition 7.7.3 by Redgate
+10:52:20 [main] INFO  ${PID: - } --- o.s.b.w.s.c.ServletWebServerApplicationContext --- Root WebApplicationContext: initialization completed in 4891 ms
+ Root WebApplicationContext: initialization completed in 4891 ms
+10:52:20 [main] INFO  ${PID: - } --- o.f.c.i.l.VersionPrinter --- Flyway Community Edition 7.7.3 by Redgate
  Flyway Community Edition 7.7.3 by Redgate
-23:28:07 [main] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Starting...
+10:52:20 [main] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Starting...
  HikariPool-1 - Starting...
-23:28:08 [main] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Start completed.
+10:52:20 [main] INFO  ${PID: - } --- c.z.h.HikariDataSource --- HikariPool-1 - Start completed.
  HikariPool-1 - Start completed.
-23:28:09 [main] INFO  ${PID: - } --- o.f.c.i.d.b.DatabaseType --- Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.2)
+10:52:20 [main] INFO  ${PID: - } --- o.f.c.i.d.b.DatabaseType --- Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.2)
  Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.2)
-23:28:09 [main] WARN  ${PID: - } --- o.f.c.i.d.b.Database --- Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@ca2cd5e 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@ca2cd5e is 13.
- Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@ca2cd5e 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@ca2cd5e is 13.
-23:28:09 [main] INFO  ${PID: - } --- o.f.c.i.c.DbValidate --- Successfully validated 2 migrations (execution time 00:00.198s)
- Successfully validated 2 migrations (execution time 00:00.198s)
-23:28:10 [main] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Current version of schema "public": 2
+10:52:20 [main] WARN  ${PID: - } --- o.f.c.i.d.b.Database --- Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@27dfd12b 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@27dfd12b is 13.
+ Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@27dfd12b 14.2 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@27dfd12b is 13.
+10:52:21 [main] INFO  ${PID: - } --- o.f.c.i.c.DbValidate --- Successfully validated 2 migrations (execution time 00:00.121s)
+ Successfully validated 2 migrations (execution time 00:00.121s)
+10:52:21 [main] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Current version of schema "public": 2
  Current version of schema "public": 2
-23:28:10 [main] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Schema "public" is up to date. No migration necessary.
+10:52:21 [main] INFO  ${PID: - } --- o.f.c.i.c.DbMigrate --- Schema "public" is up to date. No migration necessary.
  Schema "public" is up to date. No migration necessary.
-23:28:11 [main] INFO  ${PID: - } --- o.h.j.i.u.LogHelper --- HHH000204: Processing PersistenceUnitInfo [name: default]
+10:52:21 [main] INFO  ${PID: - } --- o.h.j.i.u.LogHelper --- HHH000204: Processing PersistenceUnitInfo [name: default]
  HHH000204: Processing PersistenceUnitInfo [name: default]
-23:28:11 [main] INFO  ${PID: - } --- o.h.Version --- HHH000412: Hibernate ORM core version 5.4.33
+10:52:21 [main] INFO  ${PID: - } --- o.h.Version --- HHH000412: Hibernate ORM core version 5.4.33
  HHH000412: Hibernate ORM core version 5.4.33
-23:28:13 [main] INFO  ${PID: - } --- o.h.a.c.Version --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:52:22 [main] INFO  ${PID: - } --- o.h.a.c.Version --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
  HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-23:28:15 [main] INFO  ${PID: - } --- o.h.d.Dialect --- HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10:52:22 [main] INFO  ${PID: - } --- o.h.d.Dialect --- HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
  HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-23:28:24 [main] INFO  ${PID: - } --- o.h.e.t.j.p.i.JtaPlatformInitiator --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:52:24 [main] INFO  ${PID: - } --- o.h.e.t.j.p.i.JtaPlatformInitiator --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-23:28:24 [main] INFO  ${PID: - } --- o.s.o.j.LocalContainerEntityManagerFactoryBean --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:52:24 [main] INFO  ${PID: - } --- o.s.o.j.LocalContainerEntityManagerFactoryBean --- Initialized JPA EntityManagerFactory for persistence unit 'default'
  Initialized JPA EntityManagerFactory for persistence unit 'default'
-23:28:28 [main] WARN  ${PID: - } --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:52:25 [main] WARN  ${PID: - } --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-23:28:31 [main] INFO  ${PID: - } --- o.s.b.a.e.w.EndpointLinksResolver --- Exposing 1 endpoint(s) beneath base path '/actuator'
+10:52:26 [main] INFO  ${PID: - } --- o.s.b.a.e.w.EndpointLinksResolver --- Exposing 1 endpoint(s) beneath base path '/actuator'
  Exposing 1 endpoint(s) beneath base path '/actuator'
-23:28:32 [main] INFO  ${PID: - } --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping --- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:52:26 [main] INFO  ${PID: - } --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping --- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-23:28:34 [main] INFO  ${PID: - } --- o.s.s.w.DefaultSecurityFilterChain --- Will not secure Ant [pattern='/api/v1/**']
+10:52:27 [main] INFO  ${PID: - } --- o.s.s.w.DefaultSecurityFilterChain --- Will not secure Ant [pattern='/api/v1/**']
  Will not secure Ant [pattern='/api/v1/**']
-23:28:37 [main] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Starting ProtocolHandler ["http-nio-8080"]
+10:52:27 [main] INFO  ${PID: - } --- o.a.c.h.Http11NioProtocol --- Starting ProtocolHandler ["http-nio-8080"]
  Starting ProtocolHandler ["http-nio-8080"]
-23:28:38 [main] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat started on port(s): 8080 (http) with context path ''
+10:52:27 [main] INFO  ${PID: - } --- o.s.b.w.e.t.TomcatWebServer --- Tomcat started on port(s): 8080 (http) with context path ''
  Tomcat started on port(s): 8080 (http) with context path ''
-23:28:38 [main] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Context refreshed
+10:52:27 [main] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Context refreshed
  Context refreshed
-23:28:38 [main] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Found 1 custom documentation plugin(s)
+10:52:27 [main] INFO  ${PID: - } --- s.d.s.w.p.DocumentationPluginsBootstrapper --- Found 1 custom documentation plugin(s)
  Found 1 custom documentation plugin(s)
-23:28:38 [main] INFO  ${PID: - } --- s.d.s.w.s.ApiListingReferenceScanner --- Scanning for api listing references
+10:52:28 [main] INFO  ${PID: - } --- s.d.s.w.s.ApiListingReferenceScanner --- Scanning for api listing references
  Scanning for api listing references
-23:28:39 [main] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Started Java16GiraNhanApplication in 56.392 seconds (JVM running for 63.877)
- Started Java16GiraNhanApplication in 56.392 seconds (JVM running for 63.877)
-23:28:50 [http-nio-8080-exec-1] INFO  ${PID: - } --- o.a.c.c.C.[.[.[/] --- Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:52:28 [main] INFO  ${PID: - } --- c.j.j.Java16GiraNhanApplication --- Started Java16GiraNhanApplication in 14.654 seconds (JVM running for 17.245)
+ Started Java16GiraNhanApplication in 14.654 seconds (JVM running for 17.245)
+10:52:30 [RMI TCP Connection(1)-127.0.0.1] INFO  ${PID: - } --- o.a.c.c.C.[.[.[/] --- Initializing Spring DispatcherServlet 'dispatcherServlet'
  Initializing Spring DispatcherServlet 'dispatcherServlet'
-23:28:50 [http-nio-8080-exec-1] INFO  ${PID: - } --- o.s.w.s.DispatcherServlet --- Initializing Servlet 'dispatcherServlet'
+10:52:30 [RMI TCP Connection(1)-127.0.0.1] INFO  ${PID: - } --- o.s.w.s.DispatcherServlet --- Initializing Servlet 'dispatcherServlet'
  Initializing Servlet 'dispatcherServlet'
-23:28:50 [http-nio-8080-exec-1] INFO  ${PID: - } --- o.s.w.s.DispatcherServlet --- Completed initialization in 6 ms
- Completed initialization in 6 ms
-23:29:03 [http-nio-8080-exec-9] WARN  ${PID: - } --- o.a.c.u.SessionIdGeneratorBase --- Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
- Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
+10:52:30 [RMI TCP Connection(1)-127.0.0.1] INFO  ${PID: - } --- o.s.w.s.DispatcherServlet --- Completed initialization in 4 ms
+ Completed initialization in 4 ms

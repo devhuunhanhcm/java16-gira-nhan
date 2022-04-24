@@ -45,13 +45,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		
 		//CSRF
-		http.csrf();
+		http.csrf().disable();
 		
 		//jwt filter
 		
 		// API AUTHENTICATION
 		http.antMatcher("/api/v1/**").authorizeRequests()
-									.anyRequest().authenticated();
+			.antMatchers("/api/v1/auth/login").permitAll()
+			.antMatchers("/api/v1/users").permitAll()
+			.anyRequest().authenticated();
 									
 		
 		
