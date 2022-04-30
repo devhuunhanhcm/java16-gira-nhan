@@ -12,12 +12,19 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import cybersoft.javabackend.java16giranhan.security.jwt.JwtAuthorizationFilter;
 
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private UserDetailsService userDetailsService;
+	
+	@Autowired
+	private JwtAuthorizationFilter jwtAuthFilter; 
+	
 	@Bean 
 	public PasswordEncoder getPasswordEncoder() {
 		
@@ -45,13 +52,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		
 		//CSRF
-		http.csrf();
+		http.csrf().disable();
 		
-		//jwt filter
+		//JWT FILTER
+		http.addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 		
 		// API AUTHENTICATION
 		http.antMatcher("/api/v1/**").authorizeRequests()
-									.anyRequest().authenticated();
+			.antMatchers("/api/v1/auth/login").permitAll()
+			.antMatchers("/api/v1/users").permitAll()
+			.anyRequest().authenticated();
 									
 		
 		
