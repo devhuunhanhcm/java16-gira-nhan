@@ -13,7 +13,7 @@ import lombok.Setter;
 public class GiraGroupDTO {
 	private UUID id;
 	
-	@Size(min = 5,max =36,message="{group.code.size}")
+	@Size(min = 5,max =100,message="{group.code.size}")
 	private String code;
 	
 	@NotBlank(message="{group.description.notblank}")

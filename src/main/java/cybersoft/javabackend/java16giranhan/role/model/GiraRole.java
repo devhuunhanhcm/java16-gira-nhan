@@ -21,7 +21,7 @@ import lombok.experimental.SuperBuilder;
 @Entity
 @Table(name="gira_role")
 public class GiraRole extends BaseEntity{
-	@Size(min = 5,max =36,message="Role code must be longer than 5 characters.")
+	@Size(min = 5,max =100,message="Role code must be longer than 5 characters.")
 	private String code;
 	@NotBlank(message="Description must be not blank")
 	private String description;

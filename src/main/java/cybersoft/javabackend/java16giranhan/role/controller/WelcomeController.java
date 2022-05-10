@@ -1,4 +1,4 @@
-package cybersoft.javabackend.java16giranhan.controller;
+package cybersoft.javabackend.java16giranhan.role.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
